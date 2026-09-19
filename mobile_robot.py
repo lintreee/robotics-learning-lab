@@ -13,9 +13,11 @@ def main():
 	theta = 0
 	velocity = 1.0
 	dt = 0.1
-	duration = 2.05
+	duration = 2.0
 	omega = 1
-	
+
+	if dt <= 0:
+		raise ValueError("dt必须大于0")
 
 	x_positions = []
 	y_positions = []

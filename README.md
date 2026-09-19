@@ -1,12 +1,16 @@
 # 二维小车运动实验
 
 用 Python 模拟二维小车运动，并绘制轨迹。
+使用 Python 模拟二维移动机器人的运动，并观察线速度、角速度和时间步长对轨迹的影响。
 
 ## 运行
-
 先激活虚拟环境，再运行：
 
 python3 mobile_robot.py
+- Ubuntu 24.04
+- Python 3.12
+- NumPy
+- Matplotlib
 
 ## 当前内容
 
